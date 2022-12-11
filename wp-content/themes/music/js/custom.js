@@ -35,4 +35,9 @@ $(document).ready(function() {
 // });
 
 $('#menu-item-dropdown-55').append(' <i class="fa-solid fa-caret-down"></i>');
+
+
+// $(window).scroll(function(){
+//      $('.portfolio_section').fadeOut('slow') });
+
 });
