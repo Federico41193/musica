@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+.white{
+     color:white;
+}
+
+/* .about_section .img-box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.social .row div {
+    margin-top: 20px;
+}
+
+.social .row div a:hover i{
+    color:rgb(150, 230, 255);
+} */
+
+/* .hide{
+     display:none;
+} */
+
+h1.title{
+     text-transform: none !important;
+     font-family: Parisienne,sans-serif;
+}
+
+.front-page_link a{
+     color:black !important;
+}
+
+.front-page_link a:hover{
+     background-color:#00C9A9!important;
+     padding:3px;
+     border-radius:5px;
+     color:white !important;
+}
+
+i.white:hover{
+     color:#00C9A9;
+}
+/* NAV MENU STATICO */
+
+.header_section {
+    background-color: #1e025b;
+    /* background-color: #95B0B1;  */
+    padding: 10px 0;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+#navbarSupportedContent li:hover{
+     background-color:#00C9A9;
+     border-radius:3px;
+}
+
+/* SUB-MENU */
+
+ul.dropdown-menu{
+     background-color:#2a0086;
+     border: none;
+}
+
+.dropdown-menu{
+     padding:0!important;
+}
+
+
+/* EFFETTO ZOOM */
+
+.zoom {
+   cursor: zoom-in;
+}
+
+.zoomOpen {
+   position: fixed;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   background: rgba(35, 12, 205, 0.16);
+   padding: 25px;
+   z-index: 99999;
+   zoom: .85;
+   opacity: 0;
+   cursor: zoom-out;
+}
+
+.zoomOpen > div {
+   /* background-color: transparent; */
+   background-repeat: no-repeat;
+   background-position: center center;
+   height: 100%;
+   width: 100%;
+}
+
+/*************************************/
+
+.gallery-link{
+     display: inline-block;
+     padding: 10px 35px;
+     border: 1px solid ;
+     background: linear-gradient(135deg, #a454fd, #2b05df);
+     color: white;
+     border-radius: 25px;
+     margin-top: 35px;
+}
+
+.gallery-link:hover{
+     color:#00C9A9;
+}
+
+.portfolio_section{
+     padding-top: 20px;
+}
+
+.info_social i{
+     color:white;
+}
+
+.info_social a:hover i{
+     color:#00C9A9;
+}
+
+/*  Latest news */
+
+
+/******************/
+
+/*  NEWS  */
+
+iframe {
+     width: 100% !important;
+     height: 400px;
+}
+
+.about_section p {
+    margin-top: 0px!important;
+}
+
+.news div.card{
+     height:110px;
+}
+
+/*************************/
+
+/* MEDIA */
+
+.media-link {
+    display: inline-block;
+    padding: 10px 35px;
+    border: 1px solid;
+    background: linear-gradient(135deg, #a454fd, #2b05df);
+    color: white !important;
+    border-radius: 25px;
+}
+
+.media-link a{
+     color:white;
+}
+
+.media-link:hover{
+     color:#00C9A9;
+}
+
+.media-link:hover a{
+     color:#00C9A9;
+}
+
+.music img{
+     border-radius: 20px;
+     border: 2px solid #00C9A9;
+}
+
+.cit, .box-img-music {
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.cit{
+     font-family: 'La Belle Aurore', cursive;
+}
+
+.author-cit{
+     font-family: sans-serif;
+}
+
+.media_music img{
+     height: 100px!important;
+     width: 100px!important;
+     padding:5px;
+}
+
+.card-music{
+     padding-bottom: 10px!important;
+}
+.card-music:hover{
+     background-color:#00C9A9;
+     border-radius:50px;
+}
+/*  GALLERY  */
+
+.portfolio_section .img-box img {
+    height: 220px;
+}
+
+.navigation{
+     margin: 0 auto;
+}
+
+/* CONTACT ME */
+
+.mail-link {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.mail-link {
+    display: inline-block;
+    padding: 10px 35px;
+    border: 1px solid;
+    background: linear-gradient(135deg, #a454fd, #2b05df);
+    color: white;
+    border-radius: 25px;
+}
+
+.mail-link:hover{
+     color:#00C9A9;
+}
+
+/* ABOUT ME */
+
+.about-me img{
+     border-radius: 50%;
+}
