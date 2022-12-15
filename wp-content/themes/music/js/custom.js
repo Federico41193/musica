@@ -30,14 +30,9 @@ $(document).ready(function() {
    })
 });
 
-// $('.hide-media').mouseover(function(event) {
-//      $('.portfolio_section').fadeIn(1000);
-// });
 
 $('#menu-item-dropdown-55').append(' <i class="fa-solid fa-caret-down"></i>');
 
 
-// $(window).scroll(function(){
-//      $('.portfolio_section').fadeOut('slow') });
 
 });

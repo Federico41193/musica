@@ -5,6 +5,31 @@
      color:white;
 }
 
+/* PULSANTE TORNA SU */
+
+#tornasu{
+     position: fixed;
+     bottom: 0px;
+     right: 0px;
+     display: none;
+     padding:10px;
+     background-color:#2a0086;
+     border-radius: 50%;
+     z-index: 5;
+     scroll-behavior: smooth;
+}
+
+#tornasu i{
+     color:white;
+}
+
+#tornasu i:hover{
+     color:#00C9A9;
+}
+
+/*****************/
+
+
 /* .about_section .img-box img {
     width: 200px;
     height: 200px;
@@ -65,9 +90,9 @@ img.plus {
     background-color: #1e025b;
     /* background-color: #95B0B1;  */
     padding: 10px 0;
-    position: fixed;
-    z-index: 10;
+    position: relative;
     width: 100%;
+    z-index: 3;
 }
 
 #navbarSupportedContent li:hover{
@@ -177,7 +202,7 @@ iframe {
 }
 
 .portfolio_section img.news{
-     height: auto!important;
+     height: 450px!important;
 }
 
 .news div.card{
