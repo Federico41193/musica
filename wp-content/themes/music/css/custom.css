@@ -263,6 +263,9 @@ img.news {
      border-radius: 10%;
  }
 
+ .img-box.news {
+     margin: 10px;
+ }
 /*************************/
 
 /* MEDIA */
