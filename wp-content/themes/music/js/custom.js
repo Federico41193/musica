@@ -34,5 +34,56 @@ $(document).ready(function() {
 $('#menu-item-dropdown-55').append(' <i class="fa-solid fa-caret-down"></i>');
 
 
+/* owl carousel */
+
+
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  navText: [
+    "<i class='fa fa-caret-left fa-2xl'></i>",
+    "<i class='fa fa-caret-right fa-2xl'></i>"
+  ],
+  autoplay: true,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 3
+    },
+    1000: {
+      items: 5,
+    }
+  }
+})
+
+/* script sezione galleria */
+
+$('#no-cat').on('click' , function() {
+  $('h4.scelta').empty();
+  $('h4.scelta').append($(this).val());
+  $('#no-category').fadeIn('slow');
+  $('#category3').css('display' , 'none');
+  $('#category4').css('display' , 'none');
+})
+
+$('#cat3').on('click' , function() {
+  $('h4.scelta').empty();
+  $('h4.scelta').append($(this).val());
+  $('#category3').fadeIn('slow');
+  $('#no-category').css('display' , 'none');
+  $('#category4').css('display' , 'none');
+})
+
+$('#cat4').on('click' , function() {
+  $('h4.scelta').empty();
+  $('h4.scelta').append($(this).val());
+  $('#category4').fadeIn('slow');
+  $('#no-category').css('display' , 'none');
+  $('#category3').css('display' , 'none');
+})
 
 });
