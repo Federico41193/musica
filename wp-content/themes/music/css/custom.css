@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Playball&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 
+h1,h2,h3,h4,h5,h6,p{
+     color:white;
+}
+
 .white{
      color:white;
 }
@@ -214,7 +218,7 @@ iframe {
     padding: 5px;
     margin: 5px;
     border-radius: 20px;
-    background: #00C9A9;
+    background: #00c9a970;
 }
 
 .news-link {
@@ -271,6 +275,10 @@ img.news {
      justify-content: center;
  }
 
+.about_section a:hover{
+     color:#00C9A9;
+}
+
 /* MEDIA */
 
 .media-link {
@@ -322,10 +330,13 @@ img.news {
 
 .card-music{
      padding-bottom: 10px!important;
+     background-color: #ffff;
+     border-radius: 50px 10px;
+     margin:5px auto;
 }
 .card-music:hover{
      background-color:#00C9A9;
-     border-radius:50px;
+     border-radius:10px 50px;
 }
 /*  GALLERY  */
 
@@ -365,7 +376,7 @@ img.news {
 }
 
 .about_section  .container{
-     background-color: rgba(30, 2, 91, 0.308);
+     background-color: rgba(30, 2, 91, 76%);
      border-radius:30px 0;
      padding: 10px;
 }
@@ -377,6 +388,11 @@ img.news {
 .detail-box.about {
      margin: 20px;
  }
+
+div.about a:hover i{
+     color: #00C9A9 !important;
+}
+
 /**************/
 
 
@@ -407,6 +423,7 @@ section.info_section{
      transform: translateY(0vh) !important;
 }
 .portfolio_section.home{
+     margin: 25px;
      text-align: center;
      position: relative;
      opacity: 0;
@@ -417,7 +434,7 @@ section.info_section{
 /***********************/
 
 .portfolio_section.home .container{
-     background-color: rgba(30, 2, 91, 0.308);
+     background-color: rgba(30, 2, 91, 76%);
      border-radius:30px 0;
      padding: 10px;;
 }
@@ -431,7 +448,7 @@ section.info_section{
 }
 
 .portfolio_section .container{
-     background-color: rgba(30, 2, 91, 0.308);
+     background-color: rgba(30, 2, 91, 76%);
      border-radius:30px 0;
      padding: 10px;;
 }
