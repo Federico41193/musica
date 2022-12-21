@@ -53,7 +53,7 @@ h1,h2,h3,h4,h5,h6,p{
 } */
 
 .slider_section .slider_bg-container {
-     background: linear-gradient(135deg, rgba(163, 84, 253, 0.233) 0%, #2905df56 100%), url(/musica/wp-content/themes/music/images/sfondo2.jpg) center center no-repeat !important;
+     background: linear-gradient(135deg, rgba(163, 84, 253, 0.233) 0%, #000000 100%), url(/musica/wp-content/themes/music/images/sfondo2.jpg) center center no-repeat !important;
      background-size: cover !important;
  }
 
@@ -69,6 +69,19 @@ h1,h2,h3,h4,h5,h6,p{
 .slider_section .carousel-control-next:hover {
      background-color: #00c9a7b4;
 }
+
+.slider-link{
+     background-color: #00c9a77a !important;
+     color: white;
+     font-weight: bold;
+}
+
+.slider-link:hover{
+     background-color: #ffffff91 !important;
+     color: #1e025b !important;
+     font-weight: bold;
+}
+
 h1.title{
      text-transform: none !important;
      font-family: Parisienne,sans-serif;
@@ -204,9 +217,9 @@ iframe {
     margin-top: 0px!important;
 }
 
-@media screen and (min-width:990px){
+@media screen and (min-width:768px) and  (max-width:991px){
      .portfolio_section img.news{
-          height: 450px!important;
+          height: 220px!important;
      }
 }
 
@@ -256,7 +269,7 @@ iframe {
 }
 
 img.news {
-     border-radius: 10%;
+     border-radius: 30px;
  }
 
  .img-box.news {
@@ -304,8 +317,9 @@ img.news {
 }
 
 .music img{
-     border-radius: 20px;
+     border-radius: 50%;
      border: 2px solid #00C9A9;
+     min-height: 220px;
 }
 
 .cit, .box-img-music {
@@ -318,9 +332,17 @@ img.news {
      font-family: Parisienne,sans-serif;
 }
 
-.author-cit{
+.author-cit, .button-media{
      font-family: sans-serif;
 }
+
+.button-media div{
+     margin-bottom: 10px !important;
+}
+
+h5.author-cit {
+     margin-bottom: 25px;
+ }
 
 .media_music img{
      height: 100px!important;
@@ -340,9 +362,9 @@ img.news {
 }
 /*  GALLERY  */
 
-.portfolio_section .img-box img {
+/* .portfolio_section .img-box img {
     height: 220px;
-}
+} */
 
 .navigation{
      margin: 0 auto;
@@ -479,8 +501,15 @@ section.info_section{
 
 .container-cat {
      margin: 10px 10px;
-     padding: 5%;
-     border-radius: 30px 5px;
-     box-shadow:inset 0px 0px 20px 20px #00c9a9;;
-     background-color: #00c9a71e ;
+ }
+
+ /*********************/
+
+.side{
+     left:15%;
+     margin-top:45px;
+}
+
+ iframe#sidebar{
+     height: 97%;
  }
