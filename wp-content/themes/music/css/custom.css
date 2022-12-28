@@ -34,24 +34,6 @@ h1,h2,h3,h4,h5,h6,p{
 /*****************/
 
 
-/* .about_section .img-box img {
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-}
-
-.social .row div {
-    margin-top: 20px;
-}
-
-.social .row div a:hover i{
-    color:rgb(150, 230, 255);
-} */
-
-/* .hide{
-     display:none!important;
-} */
-
 .slider_section .slider_bg-container {
      background: linear-gradient(135deg, rgba(163, 84, 253, 0.233) 0%, #000000 100%), url(/musica/wp-content/themes/music/images/sfondo2.jpg) center center no-repeat !important;
      background-size: cover !important;
@@ -159,6 +141,7 @@ ul.dropdown-menu{
    zoom: .85;
    opacity: 0;
    cursor: zoom-out;
+   transition: all 0.5s cubic-bezier(.215, .61, .355, 1);
 }
 
 .zoomOpen > div {
@@ -238,6 +221,11 @@ iframe {
     background: #00c9a970;
 }
 
+.box:hover{
+     transition: all 1s cubic-bezier(.215, .61, .355, 1);
+     background-color: #00C9A9;
+}
+
 .news-link {
      position: absolute;
      left: 0;
@@ -289,6 +277,7 @@ img.news {
 }
 
 .card-news:hover{
+     transition: all 1s cubic-bezier(.215, .61, .355, 1);
      background-color: #00c9a786;
      border: 5px solid #00C9A9;
      border-radius: 10px;
@@ -384,16 +373,24 @@ h5.author-cit {
 }
 /*  GALLERY  */
 
-/* .portfolio_section .img-box img {
-    height: 220px;
-} */
-
 .navigation{
      margin: 0 auto;
 }
 
 .scelta{
      background-color: #00c9a759;
+}
+
+.gallery img{
+     border: 2px #00C9A9 solid;
+     width:220px !important;
+     height: 220px !important;
+     border-radius: 50%;
+}
+
+.gallery img:hover{
+     border-radius:0%;
+     transition: all 0.6s cubic-bezier(.215, .61, .355, 1);
 }
 
 /* CONTACT ME */
@@ -514,37 +511,15 @@ section.info_section{
      margin-right: 10px !important;
 }
 
-/* Pagina galleria */
-
-.hide{
-     display:none;
-}
-
-.container-cat .img-box img{
-     width: 300px;
-     height: 250px;
-}
-
-.container-cat {
-     margin: 10px 10px;
- }
-
- /*********************/
-
-.side{
-     left:15%;
-     margin-top:45px;
-}
-
- iframe#sidebar{
-     height: 97%;
- }
-
 /****************/
 
-@media screen and (max-width:768px){
-     .portfolio_section{
-          opacity: 1!important;
-     }
-     
+@media screen and (max-width:390px){
+     .portfolio_section.home {
+          margin: 25px;
+          text-align: center;
+          position: relative;
+          opacity: 1;
+          z-index: 1;
+          transform: translateY(0vh);
+      }
 }
