@@ -513,13 +513,13 @@ section.info_section{
 
 /****************/
 
-@media screen and (max-width:390px){
+@media screen and (max-width:420px){
      .portfolio_section.home {
           margin: 25px;
           text-align: center;
           position: relative;
-          opacity: 1;
+          opacity: 1 !important;
           z-index: 1;
-          transform: translateY(0vh);
+          transform: translateY(0vh) !important;
       }
 }
