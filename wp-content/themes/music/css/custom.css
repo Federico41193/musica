@@ -9,6 +9,43 @@ h1,h2,h3,h4,h5,h6,p{
      color:white;
 }
 
+/* sfondo */
+
+.sfondo {
+     width: 100%!important;
+     height: 100vh!important;
+     position: fixed;
+     top: 0;
+     left: 0;
+     opacity: 0.6;
+     z-index:0;
+ }
+ 
+ section.info_section{
+     position: absolute;
+     width: 100%;
+ }
+ 
+ .layout_padding {
+   padding: 30px 0 !important;
+ }
+ 
+ .in-page{
+      opacity:1!important;
+      transition: all 1s cubic-bezier(.215, .61, .355, 1);
+      transform: translateY(0vh) !important;
+ }
+ .portfolio_section.home{
+      margin: 25px;
+      text-align: center;
+      position: relative;
+      opacity: 0;
+      z-index: 1;
+      transform: translateY(10vh);
+ }
+ 
+ /***********************/
+ 
 /* PULSANTE TORNA SU */
 
 #tornasu{
@@ -440,44 +477,6 @@ div.about a:hover i{
 
 /**************/
 
-
-/* sfondo */
-
-.sfondo {
-    width: 100%!important;
-    height: 100vh!important;
-    position: fixed;
-    top: 0;
-    left: 0;
-    opacity: 0.6;
-    z-index:0;
-}
-
-section.info_section{
-    position: absolute;
-    width: 100%;
-}
-
-.layout_padding {
-  padding: 30px 0 !important;
-}
-
-.in-page{
-     opacity:1!important;
-     transition: all 1s cubic-bezier(.215, .61, .355, 1);
-     transform: translateY(0vh) !important;
-}
-.portfolio_section.home{
-     margin: 25px;
-     text-align: center;
-     position: relative;
-     opacity: 0;
-     z-index: 1;
-     transform: translateY(10vh);
-}
-
-/***********************/
-
 .portfolio_section.home .container{
      background-color: rgba(30, 2, 91, 76%);
      border-radius:30px 0;
@@ -523,3 +522,7 @@ section.info_section{
           transform: translateY(0vh) !important;
       }
 }
+
+/****************/
+
+

@@ -12,7 +12,7 @@
 	<atom:link href="/musica/me/feed/" rel="self" type="application/rss+xml" />
 	<link>/musica</link>
 	<description>Un nuovo sito targato WordPress</description>
-	<lastBuildDate>Sat, 24 Dec 2022 21:04:25 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 29 Dec 2022 21:05:48 +0000</lastBuildDate>
 	<language>it-IT</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,22 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.1.1</generator>
 	<item>
+		<title>Articolo di giornale 2</title>
+		<link>/musica/me/articolo-di-giornale-2/</link>
+		
+		<dc:creator><![CDATA[Federico]]></dc:creator>
+		<pubDate>Thu, 29 Dec 2022 21:04:35 +0000</pubDate>
+				<guid isPermaLink="false">/musica/?post_type=me&#038;p=107</guid>
+
+					<description><![CDATA[lorem Ipsum]]></description>
+										<content:encoded><![CDATA[
+<p>lorem Ipsum</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Pubblicazione 2</title>
 		<link>/musica/me/pubblicazione-2/</link>
 		
