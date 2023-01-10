@@ -237,6 +237,10 @@ iframe {
     margin-top: 0px!important;
 }
 
+.about_section a{
+     color:white !important;
+}
+
 .portfolio_section img.news{
      height: 481px!important;
 }
@@ -337,7 +341,7 @@ img.news {
  }
 
 .about_section a:hover{
-     color:#00C9A9;
+     color:#00C9A9 !important;
 }
 
 /* MEDIA */
